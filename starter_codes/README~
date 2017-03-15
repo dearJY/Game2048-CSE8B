@@ -1,0 +1,11 @@
+File Name: README
+Author: Jingyi Ouyang
+Date: 05/25/2016
+
+1. for every instance: :%s/fun/amazing/g
+   for first instance: :s/fun/amazing
+2. mkdir -p /fooDir/barDir
+3. for example: ls *.java
+   find all the java file in current directory
+4. open files in vim: >vim *.java
+   after get in vim, change to command mode and enter: :tab ball

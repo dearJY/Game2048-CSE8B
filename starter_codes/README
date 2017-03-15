@@ -1,0 +1,28 @@
+File Name: README
+Author: Jingyi Ouyang
+Date: 05/25/2016
+
+1. for every instance: :%s/fun/amazing/g
+   for first instance: :s/fun/amazing
+2. mkdir -p /fooDir/barDir
+3. for example: ls *.java
+   find all the java file in current directory
+4. open files in vim: >vim *.java
+   after get in vim, change to command mode and enter: :tab ball
+5. static keyword means that static variables or methods can be accessed
+   withoud requiring an instantiation of the class to which they belong.
+   for example:
+   public class Cat {
+	int steps;
+	public static int move() {
+		steps = steps + 1;
+	}
+}
+   //in another class using move method
+     int catMove = move();
+6. We can regard ShapeDrawer class as parent class which contains common 
+   instant variables and methods for drawing Square with different colors.
+   Then we can creat several subclass like RedCircle,BlueCircle,YelloSquare
+   GreenSquare and so on that are inherited from parent class ShapeDrawer.
+   In each subclass we can override the methods in the parent class to meet
+   the specific requirement.
